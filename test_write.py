@@ -10,6 +10,7 @@ session = Session(bind=engine)
 session.execute('PRAGMA foreign_keys = ON;')
 
 # new_event = Events(active=1, created=20, description="blah")
+
 # session.add(new_event)
 
 new_option = Options(event_id=1, description="Модная опция")
